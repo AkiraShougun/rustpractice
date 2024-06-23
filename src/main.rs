@@ -1,10 +1,7 @@
-mod fs;
 fn main() {
-    println!("Hello there.");
-    fs::test_create_dir();
-    fs::create_file();
+    println!("The product: {}", prod(2, 4));
 }
 
-fn func() {
-    fs::create_file();
+fn prod(a: u32, b: u32) -> u32 {
+    return a * b;
 }
